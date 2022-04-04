@@ -10,4 +10,7 @@ public class DemoGitApplication {
         SpringApplication.run(DemoGitApplication.class, args);
     }
 
+    int getSum(int a, int b){
+        return a+b;
+    }
 }
